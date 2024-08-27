@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ul{
+    
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    font-size: x-large;
+    gap:50px;
+    box-shadow: 20px 01px 4px 5px red;
+    list-style-type: none;
+    
+    
+}
+
+    .one{
+        content:none;
+
+    }
+
+
+
+
+
+li{
+    position:inline-block;
+    padding: 2.5px;
+    
+
+}
+div::after{
+    content:none ;
+    color: aqua;
+}
+li:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    padding: 0px;
+}
+li:hover::after{
+    width: 100%;
+    left:0 ;
+}
+li::after{
+    content: "";
+    display: block;
+    position: absolute;
+
+    border-radius: 10px ;
+
+}
+</style>
+<body>
+    
+
+
+    <div>
+        <ul class="one">
+           <li>HTML</li>
+             <li>CSS</li>
+             <li>JS</li>
+             <li>C</li>
+             <li>C++</li>
+             <li>SQL</li>
+             <li>PYTHON</li>
+             <li>JAVA</li>
+             <li>PHP</li>
+             <li>REACT</li>
+             <li>MySQL</li>
+             <li>C#</li>
+             <li>W3.CC</li>
+             <li>CSS</li>
+             
+             
+        </ul>
+    </div>
+</body>
+</html>
